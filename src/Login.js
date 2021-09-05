@@ -24,7 +24,7 @@ export class Login extends React.Component {
     handleLogin(e) {
 
         var Airtable = require('airtable');
-        var base = new Airtable({apiKey: 'keyuAwU0gKK9KzHPW'}).base('app8ZbcPx7dkpOnP0');
+        var base = new Airtable({apiKey: '######'}).base('######');
 
         var name = this.props.name;
 

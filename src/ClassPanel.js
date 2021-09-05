@@ -45,7 +45,7 @@ async function fetchClassesInformation(err, studentClassRecord, base) {
 async function fetchClasses(studentClassId) {
 
     var Airtable = require('airtable');
-    var base = new Airtable({apiKey: 'keyuAwU0gKK9KzHPW'}).base('app8ZbcPx7dkpOnP0');
+    var base = new Airtable({apiKey: '########'}).base('#######');
     
     let studentClassRecord = await base('Classes').find(studentClassId);
 
